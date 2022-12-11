@@ -9,22 +9,22 @@ int main(void)
 {
 	int i;
 	int j;
-	int dj;
+	int sm;
 
-	for (dj = 48; dj <= 55; dj++)
+	for (sm = 48; sm <= 55; sm++)
 	{
 		for (i = 49; i <= 57; i++)
 		{
 			for (j = 50; j <= 57; j++)
 			{
 
-				if (j > i && i > dj)
+				if(j > i && i > sm)
 				{
-					putchar(dj);
+					putchar(sm);
 					putchar(i);
 					putchar(j);
 
-					if (i < 56 && j <= 57 && dj < 55)
+					if (i <= 56 && j <= 57 && sm < 55)
 					{
 						putchar(44);
 						putchar(32);
