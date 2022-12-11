@@ -8,7 +8,7 @@ int main(void)
 {
 	char simile;
 
-	for (simile = 'a'; simile <= 'z' simile++)
+	for (simile = 'a'; simile <= 'z'; simile++)
 		putchar(simile);
 	putchar('\n');
 
