@@ -1,7 +1,5 @@
 #include <stdio.h>
-/* betty style doc for function main goes there */
-/**
- * main - Entry point
+/** main - Entry point
  *
  * Return: this returns 0 by default
  */
@@ -17,18 +15,17 @@ int main(void)
 		{
 			for (j = 50; j <= 57; j++)
 			{
-
 				if(j > i && i > sm)
 				{
 					putchar(sm);
 					putchar(i);
 					putchar(j);
 
-					if (i <= 56 && j <= 57 && sm < 55)
-					{
-						putchar(44);
-						putchar(32);
-					}
+						if (i <= 56 && j <= 57 && sm < 55)
+						{
+							putchar(44);
+							putchar(32);
+						}
 				}	
 			}
 		}
