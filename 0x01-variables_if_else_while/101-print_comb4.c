@@ -1,5 +1,6 @@
 #include <stdio.h>
-/** main - Entry point
+/** 
+ * main - Entry point
  *
  * Return: this returns 0 by default
  */
@@ -21,12 +22,12 @@ int main(void)
 					putchar(i);
 					putchar(j);
 
-						if (i <= 56 && j <= 57 && sm < 55)
-						{
-							putchar(44);
-							putchar(32);
-						}
-				}	
+					if (i <= 56 && j <= 57 && sm < 55)
+					{
+						putchar(44);
+						putchar(32);
+					}
+				}
 			}
 		}
 	}
