@@ -1,15 +1,21 @@
-#include <stdio.h>
-/** 
- * main Entry Point
+#include "main.h"
+/**
+ * main - Entry Point
  *
- * Return: Value is 0 (Success)
+ * _putchar: prints input using standard library
  *
+ * Return: Value is 1 (Success)
  */
 int main(void)
 {
-	int i = "_putchar";
-
-	putchar(i);
-	putchar("\n");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
