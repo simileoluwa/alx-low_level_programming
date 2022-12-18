@@ -4,7 +4,7 @@
  * more_numbers - prints more numbers
  */
 
-void more_numbers(void);
+void more_numbers(void)
 {
 	int num;
 	int check;
